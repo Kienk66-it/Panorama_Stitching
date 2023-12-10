@@ -14,6 +14,7 @@ plt.rcParams['figure.figsize'] = [10, 6]
     5. Warping and Merging and Plotting a complete panorama image
     6. Plot out panorama image
 """
+
 # 0. Images path
 left_path = './img/2.jpg'
 right_path = './img/1.jpg'
