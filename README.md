@@ -2,13 +2,13 @@
 ## How a Panorama Image is created?
 ![The steps of Panorama process](./img/process.png)
 From two image paths (left & right) create a panorama from them.
-    0. Assign two string as images path
-    1. Read image from image path
-    2. Detect Keypoint and Descriptors by SIFT
-    3. Finding potential matches by KNN
-    4. Computing Homography matrix, and remove outliers by RANSAC
-    5. Warping and Merging and Plotting a complete panorama image
-    6. Plot out panorama image 
+* Assign two string as images path
+* Read image from image path
+* Detect Keypoint and Descriptors by SIFT
+* Finding potential matches by KNN
+* Computing Homography matrix, and remove outliers by RANSAC
+* Warping and Merging and Plotting a complete panorama image
+* Plot out panorama image 
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
