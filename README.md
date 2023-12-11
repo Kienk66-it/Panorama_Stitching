@@ -17,13 +17,6 @@ pip install numpy matplotlib opencv-python random tqdm scipy
 ```
 
 ## Usage
-```python
-# 0. Images path
-left_path = './img/2.jpg'
-right_path = './img/1.jpg'
-
-# 1. Panorama Creating Image
-lwarp, rwarp, stitch_image = pano.pano_stitching(left_path, right_path)
-plt.imshow(stitch_image)
-plt.show()
+```bash
+python pano-stitch.py
 ```
