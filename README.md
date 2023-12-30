@@ -12,7 +12,7 @@ From two image paths (left & right) create a panorama from them.
 
 ## Brief Description
 ### Two input images
-First image                 |  Second image
+                |  
 :-------------------------:|:-------------------------:
 ![](./img/1.jpg)            |  ![](./img/2.jpg)
 
