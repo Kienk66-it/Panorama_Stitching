@@ -10,13 +10,28 @@ From two image paths (left & right) create a panorama from them.
 * Warping and Merging and Plotting a complete panorama image
 * Plot out panorama image 
 
-## Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-```bash
-pip install numpy matplotlib opencv-python random tqdm scipy
-```
+## Brief Description
+### Two input images
+First image                 |  Second image
+:-------------------------:|:-------------------------:
+![](./img/1.jpg)            |  ![](./img/2.jpg)
 
-## Usage
-```bash
-python pano-stitch.py
-```
+### Result
+![](./img/result.png)
+
+## How to use this project
+* Clone this repo `https://github.com/khangnt21/PanoramaStitching.git`
+* Make sure Python is installed
+* Run `pip install -r requirements.txt` to install necessary dependencies
+* Two images required for panorama stitching could be replaced in `img `folder
+* Run `python pano-stitch.py` to make the panorama
+
+## Members 
+* Nguyễn Thế Khang - 21020692
+* Trần Ngọc Bách - 21020170
+* Lê Trung Kiên - 21021602
+* Ngô Quang Tăng - 22029037
+
+## Reference
+[Distinctive Image Features
+from Scale-Invariant Keypoints](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf)
