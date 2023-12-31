@@ -1,5 +1,5 @@
 # Panorama Stitching Image using SIFT, KNN, and RANSAC
-## How a Panorama Image is created?
+## How is a Panorama Image created?
 ![The steps of Panorama process](./img/process.png)
 From two image paths (left & right) create a panorama from them.
 * Assign two string as images path

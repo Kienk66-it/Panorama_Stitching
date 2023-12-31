@@ -1,5 +1,5 @@
-matplotlib==3.7.2
 numpy==1.25.2
+matplotlib==3.7.2
 opencv_python==4.8.1.78
 scipy==1.11.4
 tqdm==4.66.1
